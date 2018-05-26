@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Legitquest : Order System</title>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <meta content="template language" name="keywords">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="favicon.png" rel="shortcut icon">
+
+  <link href="bower_components/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+  <link href="bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet">
+  <link href="bower_components/slick-carousel/slick/slick.css" rel="stylesheet">
+  <link href="./icon_fonts_assets/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="bower_components/select2/dist/css/bootstrap-select.min.css" rel="stylesheet">
+  <link href="css/maince5a.css" rel="stylesheet">
+  <link href="./css/custom.css" rel="stylesheet">
+</head>
+
+<body class="menu-position-side menu-side-left full-screen">
+  <div class="all-wrapper solid-bg-all">
+
+    <div class="layout-w">
+
+      <!--------------------
+START - Main Menu
+-------------------->
+      <div class="menu-w selected-menu-color-light menu-has-selected-link menu-activated-on-hover color-scheme-dark color-style-default sub-menu-color-light menu-position-side menu-side-left menu-layout-full sub-menu-style-flyout">
+        <div class="logo-w">
+          <a class="logo" href="index.html">
+            <div class="logo-element"> <img src="./img/lq-logo-m.png" alt=""> </div>
+            <div class="logo-label">Legitquest <small>Admin</small> </div>
+          </a>
+        </div>
+        <div class="logged-user-w avatar-inline">
+          <div class="logged-user-i">
+            <div class="avatar-w"><img alt="" src="img/avatar1.jpg"></div>
+            <div class="logged-user-info-w">
+              <div class="logged-user-name">Jhondoe@gmail.com</div>
+              <div class="logged-user-role">Administrator</div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+        <h1 class="menu-page-header">Page Header</h1>
+        <ul class="main-menu">
+          <li class="sub-header"><span>Navigation</span></li>
+          <li>
+            <a href="#">
+              <div class="icon-w">
+                <div class="icon-wrench"></div>
+              </div><span>Admin</span></a>
+          </li>
+          <li class="selected has-sub-menu">
+            <a href="#">
+              <div class="icon-w">
+                <div class="icon-people"></div>
+              </div><span>Customer</span></a>
+          </li>
+
+          <li class="selected has-sub-menu">
+            <a href="#">
+              <div class="icon-w">
+                <div class="icon-basket-loaded"></div>
+              </div><span>Order</span></a>
+          </li>
+
+          <li class="selected has-sub-menu">
+            <a href="#">
+              <div class="icon-w">
+                <div class="os-icon os-icon-wallet-loaded"></div>
+              </div><span>Pricing</span></a>
+          </li>
+
+
+        </ul>
+
+      </div>
+      <!--------------------
+END - Main Menu
+-------------------->
+      <div class="content-w">
+        <!--------------------
+START - Top Bar
+-------------------->
+        <div class="top-bar color-scheme-light">
+          <!--------------------
+START - Top Menu Controls
+-------------------->
+          <div class="top-menu-controls">
+            <div class="element-search autosuggest-search-activator"><input placeholder="Start typing to search..." type="text"></div>
+            <!--------------------
+START - Messages Link in secondary top menu
+-------------------->
+            <div class="messages-notifications os-dropdown-trigger os-dropdown-position-left"><i class="os-icon os-icon-mail-14"></i>
+              <div class="new-messages-count">12</div>
+              <div class="os-dropdown light message-list">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <div class="user-avatar-w"><img alt="" src="img/avatar1.jpg"></div>
+                      <div class="message-content">
+                        <h6 class="message-from">John Mayers</h6>
+                        <h6 class="message-title">Account Update</h6></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="user-avatar-w"><img alt="" src="img/avatar2.jpg"></div>
+                      <div class="message-content">
+                        <h6 class="message-from">Phil Jones</h6>
+                        <h6 class="message-title">Secutiry Updates</h6></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="user-avatar-w"><img alt="" src="img/avatar3.jpg"></div>
+                      <div class="message-content">
+                        <h6 class="message-from">Bekky Simpson</h6>
+                        <h6 class="message-title">Vacation Rentals</h6></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="user-avatar-w"><img alt="" src="img/avatar4.jpg"></div>
+                      <div class="message-content">
+                        <h6 class="message-from">Alice Priskon</h6>
+                        <h6 class="message-title">Payment Confirmation</h6></div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--------------------
+END - Messages Link in secondary top menu
+-------------------->
+
+            <!--------------------
+START - User avatar and menu in secondary top menu
+-------------------->
+            <div class="logged-user-w">
+              <div class="logged-user-i">
+                <div class="avatar-w"><img alt="" src="img/avatar1.jpg"></div>
+                <div class="logged-user-menu color-style-bright">
+                  <div class="logged-user-avatar-info">
+                    <div class="avatar-w"><img alt="" src="img/avatar1.jpg"></div>
+                    <div class="logged-user-info-w">
+                      <div class="logged-user-name">Maria Gomez</div>
+                      <div class="logged-user-role">Administrator</div>
+                    </div>
+                  </div>
+                  <div class="bg-icon"><i class="os-icon os-icon-wallet-loaded"></i></div>
+                  <ul>
+                    <li><a href="#"><i class="os-icon os-icon-mail-01"></i><span>Incoming Mail</span></a></li>
+                    <li><a href="#"><i class="os-icon os-icon-user-male-circle2"></i><span>Profile Details</span></a></li>
+                    <li><a href="#"><i class="os-icon os-icon-coins-4"></i><span>Billing Details</span></a></li>
+                    <li><a href="#"><i class="os-icon os-icon-others-43"></i><span>Notifications</span></a></li>
+                    <li><a href="#"><i class="os-icon os-icon-signs-11"></i><span>Logout</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--------------------
+END - User avatar and menu in secondary top menu
+-------------------->
+          </div>
+          <!--------------------
+END - Top Menu Controls
+-------------------->
+        </div>
+        <!--------------------
+END - Top Bar
+-------------------->
+        <!--------------------
+START - Breadcrumbs
+-------------------->
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Order Management</a></li>
+          <li class="breadcrumb-item"><span>Create Order</span></li>
+        </ul>
+        <!--------------------
+END - Breadcrumbs
+-------------------->
+
+        <div class="content-i">
+          <div class="content-box">
+            <div class="element-box">
+              <form>
+                <h5 class="form-header">Create Order</h5>
+
+                <fieldset
+                  class="form-group">
+                  <legend><span>Basic details</span></legend>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for=""> Select Customer</label>
+                        <input class="form-control" placeholder="Select Customer" type="text"></div>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for=""> Select Sale Person</label>
+                          <select class="form-control" name="">
+                            <option value="">Select Sale Person</option>
+                          </select>
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for=""> Subscription Details</label>
+                        <input class="form-control" placeholder="Subscription Details" type="text">
+
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="">Subscription Type</label>
+                        <select class="form-control" name="">
+                          <option value="">Per User</option>
+                          <option value="">IP based</option>
+                          <option value="">Free Access</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="">Number of IDs</label>
+                        <input class="form-control" placeholder="Number of IDs" type="text"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="">Subscription Amount</label>
+                      <input class="form-control" placeholder="Subscription Amount" type="text">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="">Start Date</label>
+                        <div class="date-input">
+                        <input class="single-daterange form-control" placeholder="State" type="text">
+                      </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="">End Date</label>
+                        <div class="date-input">
+                        <input class="single-daterange form-control" placeholder="State" type="text">
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  </fieldset>
+                <fieldset
+                  class="form-group">
+                  <legend><span>Payment Information</span></legend>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                          <label for="">Payment Mode</label>
+                          <select class="form-control" name="">
+                            <option value="">Cash</option>
+                            <option value="">Cheque</option>
+                            <option value="">Free</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group"><label for="">Discount applied</label>
+                        <select class="form-control" name="">
+                          <option value="">Yes</option>
+                          <option value="">No</option>
+                        </select>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group"><label for=""> Amount</label>
+                        <input class="form-control" placeholder="Amount" type="text"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group"><label for="">Date</label>
+                        <div class="date-input">
+                        <input class="single-daterange form-control" placeholder="State" type="text">
+                      </div>
+
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group"><label for=""> Received by</label>
+                        <input class="form-control" placeholder="Received by" type="text"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group"><label for="">Transaction details</label>
+                        <input class="form-control" placeholder="Transaction details" type="text">
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group"><label for=""> Balance if any</label>
+                        <input class="form-control" placeholder="Balance if any" type="text"></div>
+                    </div>
+
+                  </div>
+                  </fieldset>
+                  <div class="form-check"><label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">I agree to terms and conditions</label></div>
+                  <div class="form-buttons-w"><button class="btn btn-danger" type="submit"> Create User</button></div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="display-type"></div>
+  </div>
+
+  <div aria-hidden="true" class="onboarding-modal modal fade animated block-user-modal" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-centered" role="document">
+      <div class="modal-content">
+        <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+          <span class="close-label">Close</span>
+          <span class="os-icon os-icon-close"></span>
+        </button>
+        <div class="onboarding-media">
+          <div class="user-box">
+            <div class="user-avatar">
+              <img alt="" src="img/avatar1.jpg">
+            </div>
+            <div class="user-info">
+              <div class="user-role">John Mayers</div>
+              <strong class="user-title">Individual</strong>
+
+            </div>
+
+            <div class="block-slect">
+              <select class="selectpicker2">
+                <option data-icon="status-pill smaller green">Unblock</option>
+                <option data-icon="status-pill smaller red">Blocked</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="onboarding-content with-gradient">
+
+          <form>
+            <div class="row">
+
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label for="">Reason for Blacklisting</label>
+                  <input class="form-control" placeholder="Enter Detail" type="text" value="">
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label for="">Blacklist by</label>
+                  <input class="form-control" placeholder="Enter your full name..." type="text" value="">
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <button class="btn btn-danger">Save Changes</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/popper.js/dist/umd/popper.min.js"></script>
+  <script src="bower_components/moment/moment.js"></script>
+  <script src="./bower_components/select2/dist/js/bootstrap-select.min.js"></script>
+  <script src="bower_components/ckeditor/ckeditor.js"></script>
+  <script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+  <script src="bower_components/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+  <script src="bower_components/tether/dist/js/tether.min.js"></script>
+  <script src="bower_components/bootstrap/js/dist/util.js"></script>
+  <script src="bower_components/bootstrap/js/dist/button.js"></script>
+  <script src="bower_components/bootstrap/js/dist/collapse.js"></script>
+  <script src="bower_components/bootstrap/js/dist/dropdown.js"></script>
+  <script src="bower_components/bootstrap/js/dist/modal.js"></script>
+  <script src="js/maince5a.js?version=4.4.1"></script>
+
+
+  <script type="text/javascript">
+    $('.selectpicker').selectpicker({
+      size: 2,
+      style: 'btn-white',
+    });
+  </script>
+
+  <script type="text/javascript">
+    $('.selectpicker2').selectpicker({
+      size: 2,
+      style: 'btn-white',
+    });
+  </script>
+</body>
+
+</html>
