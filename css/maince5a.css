@@ -9590,11 +9590,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .table.table-padded thead tr th {
-  border: none;
-  font-size: .81rem;
-  color: rgba(90, 99, 126, 0.49);
-  letter-spacing: 1px;
-  padding: 0.3rem 1.1rem
+    border: none;
+    font-size: .7rem;
+    color: rgb(42, 49, 69);
+    letter-spacing: 1px;
+    padding: 0.3rem 1.1rem;
 }
 
 .table.table-padded tbody tr {
