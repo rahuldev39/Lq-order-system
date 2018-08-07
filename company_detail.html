@@ -161,82 +161,56 @@ END - Breadcrumbs
           <div class="content-box">
             <div class="element-wrapper">
               <div class="element-actions">
-                <button class="btn btn-sm btn-danger" data-target=".create-promo-modal" data-toggle="modal">Create PromoCode</button>
+                <button class="btn btn-sm btn-dark" data-target=".create-promo-modal" data-toggle="modal">Edit</button>
+                <button class="btn btn-sm btn-danger" data-target=".create-promo-modal" data-toggle="modal">Delete</button>
               </div>
-              <h6 class="element-header">Promocode Setup</h6>
+              <h6 class="element-header">Company Detail</h6>
               <div class="element-box-tp">
                 <div class="table-responsive">
-                  <table class="table table-padded">
-                    <thead>
-                      <tr>
-                        <th>Promo Code</th>
-                        <th>Codes Allowed</th>
-                        <th>Discount(%)</th>
-                        <th class="text-center">Start Date</th>
-                        <th class="text-center">End Date</th>
-                        <th>Status</th>
-                        <th>Option</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
+                  <table class="table table-lightborder table-bordered table-v-compact mb-0">
                     <tbody>
                       <tr>
-
-                        <td>
-                          <div class="promo-code">
-                            <span>LQ12345</span>
-                          </div>
+                        <td><strong>Customer Type</strong>
+                          <div class="balance-label smaller lighter text-nowrap">Coorporate</div>
                         </td>
-                        <td>
-                          <div class="smaller lighter">
-                            2
-                          </div>
+                        <td><strong>Company Name</strong>
+                          <div class="balance-label smaller lighter text-nowrap">LegitQuest_2</div>
                         </td>
-                        <td>20%</td>
-                        <td><span>12 May 2018</span></td>
-                        <td><span>30 June 2018</span></td>
-                        <td class="nowrap"><span class="status-pill smaller green"></span><span>Active</span></td>
-                        <td class="text-center">
-                          <a class="badge badge-success-inverted" href="#" data-target=".extend-promo-modal" data-toggle="modal">Extend</a>
-                          <a class="badge badge-danger-inverted" href="#" data-target=".suspend-promo-modal" data-toggle="modal">Suspend</a>
-                        </td>
-
-                        <td class="row-actions">
-                          <a href="#"><i class="os-icon os-icon-ui-49"></i></a>
-                          <a class="danger" href="#"><i class="os-icon os-icon-ui-15"></i></a>
+                        <td class="d-sm-none d-xxxxl-table-cell d-md-table-cell d-xxl-none"><strong>Company Code</strong>
+                          <div class="balance-label smaller lighter text-nowrap">Coffee</div>
                         </td>
                       </tr>
-
                       <tr>
-
-                        <td>
-                          <div class="promo-code">
-                            <span>LQ98564</span>
-                          </div>
+                        <td><strong>Billing Address</strong>
+                          <div class="balance-label smaller lighter text-nowrap">801 Tower A1 Uniworld City, Sector 30, Haryana</div>
                         </td>
-                        <td>
-                          <div class="smaller lighter">
-                            3
-                          </div>
+                        <td><strong>Zip</strong>
+                          <div class="balance-label smaller lighter text-nowrap">122001</div>
                         </td>
-                        <td>30%</td>
-                        <td><span>12 May 2018</span></td>
-                        <td><span>30 June 2018</span></td>
-                        <td class="nowrap"><span class="status-pill smaller red"></span><span>Closed</span></td>
-                        <td class="text-center">
-                          <a class="badge badge-success-inverted" href="#" data-target=".extend-promo-modal" data-toggle="modal">Extend</a>
-                          <a class="badge badge-danger-inverted" href="#" data-target=".suspend-promo-modal" data-toggle="modal">Suspend</a>
-                        </td>
-
-                        <td class="row-actions">
-                          <a href="#"><i class="os-icon os-icon-ui-49"></i></a>
-                          <a class="danger" href="#"><i class="os-icon os-icon-ui-15"></i></a>
+                        <td class="d-sm-none d-xxxxl-table-cell d-md-table-cell d-xxl-none"><strong>Contact Person</strong>
+                          <div class="balance-label smaller lighter text-nowrap">Ranveer Singh</div>
                         </td>
                       </tr>
-
-
-
-
+                      <tr>
+                        <td><strong>Contact Phone</strong>
+                          <div class="balance-label smaller lighter text-nowrap">9560333555</div>
+                        </td>
+                        <td><strong>IP Restriction</strong>
+                          <div class="balance-label smaller lighter text-nowrap">No</div>
+                        </td>
+                        <td class="d-sm-none d-xxxxl-table-cell d-md-table-cell d-xxl-none"><strong>Default Currency</strong>
+                          <div class="balance-label smaller lighter text-nowrap">INR</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>City</strong>
+                          <div class="balance-label smaller lighter text-nowrap">Gurugram</div>
+                        </td>
+                        <td>
+                        </td>
+                        <td class="d-sm-none d-xxxxl-table-cell d-md-table-cell d-xxl-none">
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -248,70 +222,167 @@ END - Breadcrumbs
               <div class="element-actions">
                 <button class="btn btn-sm btn-secondary" data-target=".create-package-modal" data-toggle="modal">Create Package</button>
               </div>
-              <h6 class="element-header">Package Setup</h6>
-              <div class="element-box-tp">
+              <h6 class="element-header">User List</h6>
+              <div class="element-box">
                 <div class="table-responsive">
-                  <table class="table table-padded">
+                  <!--------------------
+  START - Basic Table
+  -------------------->
+                  <table width="100%" class="table table table-lightborder ">
                     <thead>
                       <tr>
-                        <th>Package</th>
-                        <th>Customer Type</th>
-                        <th>Pricing</th>
-                        <th>Status</th>
-                        <th>Actions</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th width="100">Mobile</th>
+                        <th class="text-center">City</th>
+                        <th width="70" class="text-right">Status</th>
+                        <th width="50" class="text-right">Blocklist</th>
+                        <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-
-                        <td>
-                          <div class="promo-code">
-                            <span>LQ Complete System access</span>
-                          </div>
+                        <td>John Mayers</td>
+                        <td>yogeshc685@gmail.com</td>
+                        <td>+919560333555</td>
+                        <td class="text-center">
+                          Gurugram
                         </td>
-                        <td>
-                          <div class="smaller lighter">
-                            Individual
-                          </div>
-                        </td>
-                        <td>₹ 4550.00</td>
-
                         <td class="nowrap"><span class="status-pill smaller green"></span><span>Active</span></td>
-
+                        <td class="text-right">
+                          <a href="#" class="badge badge-danger-inverted btn-block">Block</a>
+                        </td>
                         <td class="row-actions">
-                          <a href="#"><i class="os-icon os-icon-ui-49"></i></a>
-                          <a class="danger" href="#"><i class="os-icon os-icon-ui-15"></i></a>
+                          <button class="btn btn-link" href="#"><i class="os-icon os-icon-ui-49"></i></button>
+                          <button data-target=".block-user-modal" data-toggle="modal" class="btn btn-link" href="#"><i class="os-icon os-icon-grid-10"></i></button>
+                          <button class="btn btn-link danger" href="#"><i class="os-icon os-icon-ui-15"></i></button>
                         </td>
                       </tr>
 
                       <tr>
-
-                        <td>
-                          <div class="promo-code">
-                            <span>LQ Free System access</span>
-                          </div>
+                        <td>Kelly Brans</td>
+                        <td>ambika.jena@legitquest.com</td>
+                        <td>+919560333555</td>
+                        <td class="text-center">
+                          Delhi
                         </td>
-                        <td>
-                          <div class="smaller lighter">
-                            University
-                          </div>
+                        <td class="nowrap"><span class="status-pill smaller red"></span><span>Closed</span></td>
+                        <td class="text-right">
+                          <a href="#" class="badge badge-success-inverted btn-block">Unblock</a>
                         </td>
-                        <td>₹ 4550.00</td>
-
-                        <td class="nowrap"><span class="status-pill smaller green"></span><span>Active</span></td>
-
-
                         <td class="row-actions">
-                          <a href="#"><i class="os-icon os-icon-ui-49"></i></a>
-                          <a class="danger" href="#"><i class="os-icon os-icon-ui-15"></i></a>
+                          <button class="btn btn-link" href="#"><i class="os-icon os-icon-ui-49"></i></button>
+                          <button data-target=".block-user-modal" data-toggle="modal" class="btn btn-link" href="#"><i class="os-icon os-icon-grid-10"></i></button>
+                          <button class="btn btn-link danger" href="#"><i class="os-icon os-icon-ui-15"></i></button>
                         </td>
                       </tr>
 
+                      <tr>
+                        <td>John Mayers</td>
+                        <td>yogeshc685@gmail.com</td>
+                        <td>+919560333555</td>
+                        <td class="text-center">
+                          Gurugram
+                        </td>
+                        <td class="nowrap"><span class="status-pill smaller green"></span><span>Active</span></td>
+                        <td class="text-right">
+                          <a href="#" class="badge badge-danger-inverted btn-block" >Block</a>
+                        </td>
+                        <td class="row-actions">
+                          <button class="btn btn-link" href="#"><i class="os-icon os-icon-ui-49"></i></button>
+                          <button data-target=".block-user-modal" data-toggle="modal" class="btn btn-link" href="#"><i class="os-icon os-icon-grid-10"></i></button>
+                          <button class="btn btn-link danger" href="#"><i class="os-icon os-icon-ui-15"></i></button>
+                        </td>
+                      </tr>
 
+                      <tr>
+                        <td>Kelly Brans</td>
+                        <td>ambika.jena@legitquest.com</td>
+                        <td>+919560333555</td>
+                        <td class="text-center">
+                          Delhi
+                        </td>
+                        <td class="nowrap"><span class="status-pill smaller red"></span><span>Closed</span></td>
+                        <td class="text-right">
+                          <a href="#" class="badge badge-success-inverted btn-block">Unblock</a>
+                        </td>
+                        <td class="row-actions">
+                          <button class="btn btn-link" href="#"><i class="os-icon os-icon-ui-49"></i></button>
+                          <button data-target=".block-user-modal" data-toggle="modal" class="btn btn-link" href="#"><i class="os-icon os-icon-grid-10"></i></button>
+                          <button class="btn btn-link danger" href="#"><i class="os-icon os-icon-ui-15"></i></button>
+                        </td>
+                      </tr>
 
+                      <tr>
+                        <td>John Mayers</td>
+                        <td>yogeshc685@gmail.com</td>
+                        <td>+919560333555</td>
+                        <td class="text-center">
+                          Gurugram
+                        </td>
+                        <td class="nowrap"><span class="status-pill smaller green"></span><span>Active</span></td>
+                        <td class="text-right">
+                          <a href="#" class="badge badge-danger-inverted btn-block">Block</a>
+                        </td>
+                        <td class="row-actions">
+                          <button class="btn btn-link" href="#"><i class="os-icon os-icon-ui-49"></i></button>
+                          <button data-target=".block-user-modal" data-toggle="modal" class="btn btn-link" href="#"><i class="os-icon os-icon-grid-10"></i></button>
+                          <button class="btn btn-link danger" href="#"><i class="os-icon os-icon-ui-15"></i></button>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>Kelly Brans</td>
+                        <td>ambika.jena@legitquest.com</td>
+                        <td>+919560333555</td>
+                        <td class="text-center">
+                          Delhi
+                        </td>
+                        <td class="nowrap"><span class="status-pill smaller red"></span><span>Closed</span></td>
+                        <td class="text-right">
+                          <a href="#" class="badge badge-success-inverted btn-block">Unblock</a>
+                        </td>
+                        <td class="row-actions">
+                          <button class="btn btn-link" href="#"><i class="os-icon os-icon-ui-49"></i></button>
+                          <button data-target=".block-user-modal" data-toggle="modal" class="btn btn-link" href="#"><i class="os-icon os-icon-grid-10"></i></button>
+                          <button class="btn btn-link danger" href="#"><i class="os-icon os-icon-ui-15"></i></button>
+                        </td>
+                      </tr>
 
                     </tbody>
                   </table>
+                  <!--------------------
+  END - Basic Table
+  -------------------->
+                </div>
+
+                <hr>
+
+                <div class="controls-below-table">
+                  <div class="table-records-info">Showing records 1 - 5</div>
+                  <div class="table-records-pages">
+                    <ul class="pagination" role="navigation">
+
+                      <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
+                        <span class="page-link" aria-hidden="true">‹</span>
+                      </li>
+
+
+
+
+
+                      <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                      <li class="page-item"><a class="page-link" href="http://rlegitapi.swagbyfashion.com/rl-admin/customer/indiviual?page=2">2</a></li>
+                      <li class="page-item"><a class="page-link" href="http://rlegitapi.swagbyfashion.com/rl-admin/customer/indiviual?page=3">3</a></li>
+                      <li class="page-item"><a class="page-link" href="http://rlegitapi.swagbyfashion.com/rl-admin/customer/indiviual?page=4">4</a></li>
+                      <li class="page-item"><a class="page-link" href="http://rlegitapi.swagbyfashion.com/rl-admin/customer/indiviual?page=5">5</a></li>
+
+
+                      <li class="page-item">
+                        <a class="page-link" href="http://rlegitapi.swagbyfashion.com/rl-admin/customer/indiviual?page=2" rel="next" aria-label="Next »">›</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -324,8 +395,7 @@ END - Breadcrumbs
     <div class="display-type"></div>
   </div>
 
-  <div aria-hidden="true" class="onboarding-modal modal fade animated suspend-promo-modal"  role="dialog"
-    tabindex="-1">
+  <div aria-hidden="true" class="onboarding-modal modal fade animated suspend-promo-modal" role="dialog" tabindex="-1">
     <div class="modal-dialog modal-centered" role="document">
       <div class="modal-content">
         <button aria-label="Close" class="close" data-dismiss="modal" type="button">
@@ -382,8 +452,7 @@ END - Breadcrumbs
     </div>
   </div>
 
-  <div aria-hidden="true" class="onboarding-modal modal fade animated extend-promo-modal"  role="dialog"
-    tabindex="-1">
+  <div aria-hidden="true" class="onboarding-modal modal fade animated extend-promo-modal" role="dialog" tabindex="-1">
     <div class="modal-dialog modal-centered" role="document">
       <div class="modal-content">
         <button aria-label="Close" class="close" data-dismiss="modal" type="button">
@@ -429,8 +498,7 @@ END - Breadcrumbs
   </div>
 
 
-  <div aria-hidden="true" class="onboarding-modal modal fade animated create-promo-modal"  role="dialog"
-    tabindex="-1">
+  <div aria-hidden="true" class="onboarding-modal modal fade animated create-promo-modal" role="dialog" tabindex="-1">
     <div class="modal-dialog modal-centered" role="document">
       <div class="modal-content">
         <button aria-label="Close" class="close" data-dismiss="modal" type="button">
@@ -486,8 +554,7 @@ END - Breadcrumbs
   </div>
 
 
-  <div aria-hidden="true" class="onboarding-modal modal fade animated create-package-modal"  role="dialog"
-    tabindex="-1">
+  <div aria-hidden="true" class="onboarding-modal modal fade animated create-package-modal" role="dialog" tabindex="-1">
     <div class="modal-dialog modal-centered" role="document">
       <div class="modal-content">
         <button aria-label="Close" class="close" data-dismiss="modal" type="button">
@@ -508,7 +575,7 @@ END - Breadcrumbs
 
             <div class="form-group">
               <label for="">Customer type</label>
-            <select class=" form-control" name="">
+              <select class=" form-control" name="">
               <option value="">Individual</option>
               <option value="">Corporate</option>
               <option value="">University</option>

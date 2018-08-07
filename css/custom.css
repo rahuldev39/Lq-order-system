@@ -82,3 +82,68 @@ tr.blocked{
 table td .btn{
   margin-left: 2px !important;
 }
+
+.row-actions .btn {
+    margin: 0px;
+    margin-right: 0.8rem;
+    color: #3E4B5B;
+    padding: 0px;
+    margin-left: 0px !important;
+    border: 0px;
+}
+.row-actions .btn:last-child{
+  margin-right: 0px
+}
+.row-actions .btn.danger {
+    color: #9d1818;
+}
+.auth-wrapper {
+    background-image: url(./../img/bg-header4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.auth-box-w .radio {
+    display: inline-block;
+    margin-right: 10px;
+}
+.auth-box-w .form-group {
+    margin-bottom: 2rem;
+}
+.auth-box-w label {
+    font-size: 16px;
+    font-weight: 500;
+}
+.auth-box-w .radio label {
+    font-size: 20px;
+}
+.sidebar-toggle {
+    font-size: 20px;
+    margin-left: 29px;
+}
+.sidebar-toggle a {
+    color: #293145;
+}
+.close-sidebar .menu-w.color-scheme-dark {
+    left: -250px;
+}
+.close-sidebar .all-wrapper.solid-bg-all .content-w {
+    margin-left: 0px;
+}
+.close-sidebar .content-w>.top-bar {
+    width: calc(100%);
+}
+@media(max-width: 1024px) {
+  .sidebar-toggle {
+      display: block;
+  }
+  .all-wrapper.solid-bg-all .content-w {
+    margin-left: 0px;
+}
+.content-w>.top-bar {
+    width: calc(100%);
+}
+.menu-w.color-scheme-dark {
+    z-index: 100;
+    top: 53px;
+}
+}

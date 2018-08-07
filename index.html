@@ -24,60 +24,69 @@
       <!--------------------
 START - Main Menu
 -------------------->
-      <div class="menu-w selected-menu-color-light menu-has-selected-link menu-activated-on-hover color-scheme-dark color-style-default sub-menu-color-light menu-position-side menu-side-left menu-layout-full sub-menu-style-flyout">
-        <div class="logo-w">
-          <a class="logo" href="index.html">
-            <div class="logo-element"> <img src="./img/lq-logo-m.png" alt=""> </div>
-            <div class="logo-label">Legitquest <small>Admin</small> </div>
-          </a>
-        </div>
-        <div class="logged-user-w avatar-inline">
-          <div class="logged-user-i">
-            <div class="avatar-w"><img alt="" src="img/avatar1.jpg"></div>
-            <div class="logged-user-info-w">
-              <div class="logged-user-name">Jhondoe@gmail.com</div>
-              <div class="logged-user-role">Administrator</div>
-            </div>
-
-
-          </div>
-        </div>
-
-
-        <h1 class="menu-page-header">Page Header</h1>
-        <ul class="main-menu">
-          <li class="sub-header"><span>Navigation</span></li>
-          <li>
-            <a href="./index.html">
-              <div class="icon-w">
-                <div class="icon-wrench"></div>
-              </div><span>Admin</span></a>
-          </li>
-          <li class="selected has-sub-menu">
-            <a href="./customer_mgt.html">
-              <div class="icon-w">
-                <div class="icon-people"></div>
-              </div><span>Customer</span></a>
-          </li>
-
-          <li class="selected has-sub-menu">
-            <a href="./order_mgt.html">
-              <div class="icon-w">
-                <div class="icon-basket-loaded"></div>
-              </div><span>Order</span></a>
-          </li>
-
-          <li class="selected has-sub-menu">
-            <a href="./pricing-setup.html">
-              <div class="icon-w">
-                <div class="os-icon os-icon-wallet-loaded"></div>
-              </div><span>Pricing</span></a>
-          </li>
-
-
-        </ul>
-
+<div class="menu-w selected-menu-color-light menu-has-selected-link menu-activated-on-click color-scheme-dark color-style-default sub-menu-color-light menu-position-side menu-side-left menu-layout-full sub-menu-style-inside">
+  <div class="logo-w">
+    <a class="logo" href="index.html">
+      <div class="logo-element"> <img src="./img/lq-logo-m.png" alt=""> </div>
+      <div class="logo-label">Legitquest <small>Admin</small> </div>
+    </a>
+  </div>
+  <div class="logged-user-w avatar-inline">
+    <div class="logged-user-i">
+      <div class="avatar-w">
+        <i class="os-icon os-icon-user-male-circle" style="font-size: 24px;"></i>
       </div>
+      <div class="logged-user-info-w">
+        <div class="logged-user-name">Jhondoe@gmail.com</div>
+        <div class="logged-user-role">Administrator</div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <h1 class="menu-page-header">Page Header</h1>
+  <ul class="main-menu">
+    <li class="sub-header"><span>Navigation</span></li>
+
+    <li class="selected has-sub-menu">
+      <a href="./customer_mgt.html">
+        <div class="icon-w">
+          <div class="icon-people"></div>
+        </div><span>Customer</span></a>
+        <ul class="sub-menu">
+            <li><a href="index.html">Indiviual</a></li>
+            <li><a href="apps_crypto.html">Coorporate</a></li>
+            <li><a href="apps_support_dashboard.html">Coorporate pro</a></li>
+        </ul>
+    </li>
+
+    <li class="selected has-sub-menu">
+      <a href="./order_mgt.html">
+        <div class="icon-w">
+          <div class="icon-basket-loaded"></div>
+        </div><span>Order</span></a>
+    </li>
+
+    <li class="selected has-sub-menu">
+      <a href="./pricing-setup.html">
+        <div class="icon-w">
+          <div class="os-icon os-icon-ui-44"></div>
+        </div><span>Package</span></a>
+    </li>
+
+    <li class="selected has-sub-menu">
+      <a href="./pricing-setup.html">
+        <div class="icon-w">
+          <div class="icon-tag"></div>
+        </div><span>Promo</span></a>
+    </li>
+
+
+  </ul>
+
+</div>
       <!--------------------
 END - Main Menu
 -------------------->
@@ -86,63 +95,24 @@ END - Main Menu
 START - Top Bar
 -------------------->
         <div class="top-bar color-scheme-light">
+          <div class="sidebar-toggle">
+            <a href="#"> <i class="icon-menu"></i> </a>
+          </div>
           <!--------------------
 START - Top Menu Controls
 -------------------->
           <div class="top-menu-controls">
-            <div class="element-search autosuggest-search-activator"><input placeholder="Start typing to search..." type="text"></div>
-            <!--------------------
-START - Messages Link in secondary top menu
--------------------->
-            <div class="messages-notifications os-dropdown-trigger os-dropdown-position-left"><i class="os-icon os-icon-mail-14"></i>
-              <div class="new-messages-count">12</div>
-              <div class="os-dropdown light message-list">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <div class="user-avatar-w"><img alt="" src="img/avatar1.jpg"></div>
-                      <div class="message-content">
-                        <h6 class="message-from">John Mayers</h6>
-                        <h6 class="message-title">Account Update</h6></div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="user-avatar-w"><img alt="" src="img/avatar2.jpg"></div>
-                      <div class="message-content">
-                        <h6 class="message-from">Phil Jones</h6>
-                        <h6 class="message-title">Secutiry Updates</h6></div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="user-avatar-w"><img alt="" src="img/avatar3.jpg"></div>
-                      <div class="message-content">
-                        <h6 class="message-from">Bekky Simpson</h6>
-                        <h6 class="message-title">Vacation Rentals</h6></div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="user-avatar-w"><img alt="" src="img/avatar4.jpg"></div>
-                      <div class="message-content">
-                        <h6 class="message-from">Alice Priskon</h6>
-                        <h6 class="message-title">Payment Confirmation</h6></div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!--------------------
-END - Messages Link in secondary top menu
--------------------->
 
             <!--------------------
 START - User avatar and menu in secondary top menu
 -------------------->
             <div class="logged-user-w">
               <div class="logged-user-i">
-                <div class="avatar-w"><img alt="" src="img/avatar1.jpg"></div>
+                <div class="avatar-w">
+                  <a class="" href="#" role="button">
+                    <i class="os-icon os-icon-user-male-circle"></i> Karan Kalia
+                    </a>
+                </div>
                 <div class="logged-user-menu color-style-bright">
                   <div class="logged-user-avatar-info">
                     <div class="avatar-w"><img alt="" src="img/avatar1.jpg"></div>
@@ -345,16 +315,38 @@ END - Breadcrumbs
 
 
   <script type="text/javascript">
-  $('.selectpicker').selectpicker({
-  size: 2,
-  style: 'btn-white',
-  });
+    $('.selectpicker').selectpicker({
+      size: 2,
+      style: 'btn-white',
+    });
   </script>
 
   <script type="text/javascript">
-  $('.selectpicker2').selectpicker({
-  size: 2,
-  style: 'btn-white',
+    $('.selectpicker2').selectpicker({
+      size: 2,
+      style: 'btn-white',
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(".sidebar-toggle a").on("click", function() {
+
+      $("body").toggleClass("close-sidebar")
+
+    });
+  </script>
+  <script type="text/javascript">
+  $(function() {
+   $(window).resize(function resize() {
+     if ($(window).width() < 1008) {
+       $('body').addClass('close-sidebar');
+     }
+     else {
+
+       $('body').removeClass('close-sidebar');
+     }
+   }).trigger('resize');
+
   });
   </script>
 </body>
