@@ -6,13 +6,12 @@
   <meta content="ie=edge" http-equiv="x-ua-compatible">
   <meta content="template language" name="keywords">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="favicon.png" rel="shortcut icon">
+  <link href="./img/fav_lq.png" rel="shortcut icon">
 
   <link href="bower_components/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
-  <link href="bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet">
-  <link href="bower_components/slick-carousel/slick/slick.css" rel="stylesheet">
   <link href="./icon_fonts_assets/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
   <link href="bower_components/select2/dist/css/bootstrap-select.min.css" rel="stylesheet">
+  <link href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
   <link href="css/maince5a.css" rel="stylesheet">
   <link href="./css/custom.css" rel="stylesheet">
 </head>
@@ -190,7 +189,7 @@ END - Breadcrumbs
                   <!--------------------
   START - Basic Table
   -------------------->
-  <table  width="100%" class="table table table-lightborder ">
+  <table id="dataTable1"  width="100%" class="table table table-lightborder ">
     <thead>
       <tr>
         <th>User Setup</th>
@@ -300,19 +299,15 @@ END - Breadcrumbs
   </div>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/popper.js/dist/umd/popper.min.js"></script>
-  <script src="bower_components/moment/moment.js"></script>
   <script src="./bower_components/select2/dist/js/bootstrap-select.min.js"></script>
-  <script src="bower_components/ckeditor/ckeditor.js"></script>
   <script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
-  <script src="bower_components/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
-  <script src="bower_components/tether/dist/js/tether.min.js"></script>
-  <script src="bower_components/bootstrap/js/dist/util.js"></script>
-  <script src="bower_components/bootstrap/js/dist/button.js"></script>
   <script src="bower_components/bootstrap/js/dist/collapse.js"></script>
   <script src="bower_components/bootstrap/js/dist/dropdown.js"></script>
   <script src="bower_components/bootstrap/js/dist/modal.js"></script>
-  <script src="js/maince5a.js?version=4.4.1"></script>
-
+  <script src="bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="js/dataTables.bootstrap4.min.js"></script>
+  <script src="js/maince5a.js"></script>
 
   <script type="text/javascript">
     $('.selectpicker').selectpicker({
