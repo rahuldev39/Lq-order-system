@@ -15956,18 +15956,23 @@ a.el-tablo:hover .label {
   padding-top: 1.5rem;
   margin-top: 1.5rem
 }
-
 .auth-box-w {
-    max-width: 45%;
+    width: 500px;
     margin: 0px auto;
     background-color: #fafafb;
     border-radius: 6px;
     -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 0px;
+    margin: 10px;
 }
-
+.auth-wrapper  .all-wrapper{
+  height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .auth-box-w.wider {
   max-width: 500px
 }
@@ -15992,7 +15997,11 @@ a.el-tablo:hover .label {
     padding-top: 1rem;
     background-color: white;
 }
-
+.auth-box-w .auth-header small {
+    font-size: 16px;
+    color: #015aaa;
+    margin-left: 3px;
+}
 .auth-box-w .auth-header:after {
   content: "";
   background-color: #005aaa;

@@ -26,6 +26,12 @@ function os_init_sub_menus() {
     }, 30);
   });
 
+
+}
+
+$(function () {
+
+
   // INIT MENU TO ACTIVATE ON CLICK
   $('.menu-activated-on-click').on('click', 'li.has-sub-menu > a', function (event) {
     var $elem = $(this).closest('li');
@@ -37,12 +43,6 @@ function os_init_sub_menus() {
     }
     return false;
   });
-}
-
-$(function () {
-
-
-
 
 
   // #4. DATE RANGE PICKER
