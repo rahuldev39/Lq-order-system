@@ -132,6 +132,12 @@ table td .btn{
 .close-sidebar .content-w>.top-bar {
     width: calc(100%);
 }
+.form-group label {
+    margin-bottom: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
 @media(max-width: 1024px) {
   .sidebar-toggle {
       display: block;

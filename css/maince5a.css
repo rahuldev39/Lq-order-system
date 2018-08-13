@@ -2258,8 +2258,10 @@ pre code {
 }
 
 .table thead th {
-  vertical-align: bottom;
-  border-bottom: 2px solid rgba(83, 101, 140, 0.33)
+    vertical-align: bottom;
+    border-bottom: 2px solid rgba(83, 101, 140, 0.33);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .table tbody+tbody {
@@ -9355,6 +9357,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .table.table-lightborder td {
     border-color: rgba(41, 49, 69, 0.15);
+    font-size: .9rem;
 }
 
 .table.table-clean tr:first-child td {
@@ -9394,7 +9397,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .table thead th {
-  border-bottom: 1px solid #999
+    border-bottom: 1px solid #999;
+    font-size: .78rem !important;
 }
 
 .table tfoot th {
@@ -9416,11 +9420,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .table .row-actions {
-  text-align: center
+    text-align: center;
+    display: flex;
 }
 
 .table .row-actions .os-icon {
-  font-size: 16px
+    font-size: 20px;
 }
 
 .table .row-actions a {
@@ -11048,10 +11053,10 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 }
 
 table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
-  position: absolute;
-  bottom: 0.9em;
-  display: block;
-  opacity: 0.3
+    position: absolute;
+    bottom: 1.5em;
+    display: block;
+    opacity: 0.3;
 }
 
 table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc_disabled:before {
